@@ -1,0 +1,16 @@
+###
+POST: http://localhost:4444/auth/register
+
+JSON:
+{
+	"email": "test@test.ru",
+	"password": "12345",
+	"fullName": "Reg Kun",
+	"avatarUrl": "https://cloud.mongodb.com/v2/636e2897d260d17c278d5a96#/clusters"
+}
+{
+	"success": true
+}
+###
+POst
+http://localhost:4444/auth/login
